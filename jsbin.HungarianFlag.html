@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2019 by noribozo (http://jsbin.com/wasurup/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+<meta name="description" content="Hungarian flag">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Practice JavaScript by drawing</title>
+</head>
+<body>
+  <canvas id="myCanvas" height="300" width="450" style="border: 1px solid black"></canvas>
+<script id="jsbin-javascript">
+var canvas = document.getElementById('myCanvas');
+var context = canvas.getContext('2d');
+
+
+var a = 250;
+var b = 50;
+var cw = 450;
+var ch = 300;
+
+context.fillStyle = "red";
+context.fillRect(0.2*cw,  0.2*ch, 0.6*cw, 0.2*ch);
+
+context.fillStyle = "white";
+context.fillRect(0.2*cw,   0.4*ch, 0.6*cw, 0.2*ch);
+
+context.fillStyle = "green";
+context.fillRect(0.2*cw, 0.6*ch, 0.6*cw, 0.2*ch);
+
+
+</script>
+</body>
+</html>
